@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../public/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px 0;
+            padding: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Admin Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="card" id="orders">
+            <h2>Orders</h2>
+            <!-- Orders will be loaded here -->
+        </div>
+        <div class="card" id="intake">
+            <h2>Intake Applications</h2>
+            <!-- Intake applications will be loaded here -->
+        </div>
+        <div class="card" id="patches">
+            <h2>Patch Requests</h2>
+            <!-- Patch requests will be loaded here -->
+        </div>
+        <div class="card" id="sales">
+            <h2>Raw Set Sales</h2>
+            <!-- Raw set sales will be loaded here -->
+        </div>
+        <div class="card" id="affiliates">
+            <h2>Affiliate Performance</h2>
+            <!-- Affiliate performance will be loaded here -->
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 YO Brand Platform</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
