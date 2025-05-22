@@ -1,0 +1,1 @@
+// logAffiliate.js
